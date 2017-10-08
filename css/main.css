@@ -1,0 +1,302 @@
+/***** BODY *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#about, #skills, #contact {
+         height: 400px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    margin: 40px 0px 200px;
+}
+
+#mylogo {
+    margin-left: 25px;
+}
+
+nav {
+    float: left;
+    padding: 40px 0px;
+    margin: 0px 0px 80px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: .05px;
+    padding-left: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#mylogo {
+    margin-left: 25px;
+}
+
+#graffitiwall-logo {
+    width: 1200px;
+}
+
+/***** MAIN: ABOUT *****/
+
+#about .full-width {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+#about h1 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-right: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about p {
+    color: #000;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: center;
+}
+
+#about span {
+    color: #000;
+    font-family: 'Jenna Sue', cursive;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#i-am h1 {
+    margin: 50px 600px 0px 0px;
+}
+
+#aboutme {
+    margin: 25px 0px 25px;
+    text-align: center;
+    width: 600px;
+}
+
+#sasha-fierce h1 {
+    margin: 0px 0px 0px 650px;
+}
+
+#survivor-song p {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#aboutmebio p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#aboutmebio h5 {
+  background: black;
+  color: #fff;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-right: 20px;
+  padding: 15px 25px;
+}
+
+#aboutmebio span {
+    color: #fff;
+    display: inline;
+    font-family: 'Jenna Sue', cursive;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/***** MAIN: SKILLS *****/
+
+#skills img {
+    display: inline-block;
+    float: left;
+    margin: 40px 37.5px 40px 37.5px;
+    padding: 40px 37.5px 0px 37.5px;
+}
+
+#skills h1 {
+  background: black;
+  color: #fff;
+  display: inline;
+  font-size: 21px;
+  font-weight: normal;
+  margin: 0px 0px 0px 145px;
+  padding: 10px 25px;
+}
+
+h1#photography {
+  padding: 10px 15px;
+}
+
+h1#blog {
+  padding: 10px 59px;
+}
+
+/***** MAIN: PORTFOLIO *****/
+
+#portfolio h1 {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 100px 0px 75px;
+  padding-right: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#portfolio h2 {
+  letter-spacing: 1px;
+  margin-bottom: 175px;
+  margin-right: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#seoulforest h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#seoulforest img {
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#businesscard h2 {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#businesscard img {
+      display: block;
+      margin: auto;
+}
+
+#seoulrooftop h1 {
+  margin-bottom: 30px;
+}
+
+#seoulrooftop img {
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#blog h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-top: 350px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/***** MAIN: CONTACT AKA FOOTER *****/
+
+#contact .full-width {
+    margin-top: 200px;
+}
+
+#contact h5 {
+    background: black;
+    color: #fff;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 503px;
+    padding: 15px 25px;
+}
+
+#contact span {
+    color: #fff;
+    display: inline;
+    font-family: 'Jenna Sue', cursive;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#contact h6 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+#contact p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px 0px 100px 170px;
+}
+
+#Social-Media-Icons {
+    text-align: center;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#About-Icons {
+  margin-top: 2000px;
+  text-align: center;
+}
+
+#Portfolio-Icons {
+  text-align: center;
+}
+
+#Blog-Icons {
+  margin-top: 400px;
+  text-align: center;
+}
+
+#Contact-Icons {
+  text-align: center;
+}
